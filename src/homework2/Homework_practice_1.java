@@ -12,7 +12,7 @@ public class Homework_practice_1 {
  */
 
     public static void main(String[] args) {
-        System.out.println("Input 1 - 12");
+        System.out.println("Введите число от 1 до 12");
         System.out.println("");
         Scanner scanner = new Scanner(System.in);
         int month = scanner.nextInt();

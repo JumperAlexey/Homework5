@@ -14,16 +14,16 @@ public class Homework_2_5 {
 
     public static void main(String[] args) {
         System.out.println("Введите положительное целое число");
-        System.out.println(" ");
+        System.out.println("");
         Scanner scanner = new Scanner(System.in);
         boolean b = scanner.hasNextInt();
         int a = scanner.nextInt();
-        if (a > 0) {
-            for (int i = 0; i <= a; i++){
-                a = a + i;
-                System.out.println(a);
-                i++;
+        int sum = 0;
+        if (a >= 0) {
+            for (int i = 1; i <= a; i++) {
+                sum += i;
             }
+            System.out.println(sum);
         } else {
             System.out.println("Error");
         }
